@@ -1,0 +1,196 @@
+/*My Added Css*/
+
+/*Weather Icons Alternative Starts*/
+
+@font-face {
+	font-family: 'weather';
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot');
+	src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.eot?#iefix') format('embedded-opentype'),
+	url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.woff') format('woff'),
+	url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.ttf') format('truetype'),
+	url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/93/artill_clean_icons-webfont.svg#artill_clean_weather_iconsRg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon-0:before { content: ":"; }
+.icon-1:before { content: "p"; }
+.icon-2:before { content: "S"; }
+.icon-3:before { content: "Q"; }
+.icon-4:before { content: "S"; }
+.icon-5:before { content: "W"; }
+.icon-6:before { content: "W"; }
+.icon-7:before { content: "W"; }
+.icon-8:before { content: "W"; }
+.icon-9:before { content: "I"; }
+.icon-10:before { content: "W"; }
+.icon-11:before { content: "I"; }
+.icon-12:before { content: "I"; }
+.icon-13:before { content: "I"; }
+.icon-14:before { content: "I"; }
+.icon-15:before { content: "W"; }
+.icon-16:before { content: "I"; }
+.icon-17:before { content: "W"; }
+.icon-18:before { content: "U"; }
+.icon-19:before { content: "Z"; }
+.icon-20:before { content: "Z"; }
+.icon-21:before { content: "Z"; }
+.icon-22:before { content: "Z"; }
+.icon-23:before { content: "Z"; }
+.icon-24:before { content: "E"; }
+.icon-25:before { content: "E"; }
+.icon-26:before { content: "3"; }
+.icon-27:before { content: "a"; }
+.icon-28:before { content: "A"; }
+.icon-29:before { content: "a"; }
+.icon-30:before { content: "A"; }
+.icon-31:before { content: "6"; }
+.icon-32:before { content: "1"; }
+.icon-33:before { content: "6"; }
+.icon-34:before { content: "1"; }
+.icon-35:before { content: "W"; }
+.icon-36:before { content: "1"; }
+.icon-37:before { content: "S"; }
+.icon-38:before { content: "S"; }
+.icon-39:before { content: "S"; }
+.icon-40:before { content: "M"; }
+.icon-41:before { content: "W"; }
+.icon-42:before { content: "I"; }
+.icon-43:before { content: "W"; }
+.icon-44:before { content: "a"; }
+.icon-45:before { content: "S"; }
+.icon-46:before { content: "U"; }
+.icon-47:before { content: "S"; }
+
+/*All new Styling added by me*/
+
+
+/* Overriding codes */
+/* overriding main-stylesheet.min.css */
+/*My Own Additions*/
+#main-menu>ul>li.current-menu-item>a
+{
+	border-color: #64ebff;
+}
+
+/*Modified*/
+/*#main-menu>ul>li .sub-menu>li>a span:after,#main-menu>ul>li>a span:after*/
+/*#main-menu>ul>li.menu-item-has-children>a
+{
+	vertical-align:middle;
+	font-family:'Material icons';
+	content:'\E5D4'
+	}*/
+
+	/*modified*/
+	.item-header:hover img 
+	{
+		-webkit-transform:scale(1.25);
+		/* Safari and Chrome */
+		-moz-transform:scale(1.25);
+		/* Firefox */
+		-ms-transform:scale(1.25);
+		/* IE 9 */
+		-o-transform:scale(1.25);
+		/* Opera */
+		transform:scale(1.25);
+
+	}
+
+	/*modified*/
+	.item-header img
+	{
+		width:100%;
+		/*my mods*/
+		-webkit-transition: all 1s ease;
+		/* Safari and Chrome */
+		-moz-transition: all 1s ease;
+		/* Firefox */
+		-o-transition: all 1s ease;
+		/* IE 9 */
+		-ms-transition: all 1s ease;
+		/* Opera */
+		transition: all 1s ease;
+
+	}
+
+	/*modified*/
+	.ot-follow-share a:hover
+	{
+		box-shadow:0 0 6px rgba(0,0,0,.16),0 6px 12px rgba(0,0,0,.32);
+		/*my mods*/
+		-webkit-transform:scale(1.25);
+		/* Safari and Chrome */
+		-moz-transform:scale(1.25);
+		/* Firefox */
+		-ms-transform:scale(1.25);
+		/* IE 9 */
+		-o-transform:scale(1.25);
+		/* Opera */
+		transform:scale(1.25)
+	}
+
+	/*Modified*/
+	#main-menu>ul>li:hover>a
+	{
+		background-color:rgba(0,0,0,.05);
+		z-index:16;
+		/*new*/
+		color: #232323
+	}
+
+
+	/*Yet To Be Modified*/
+	#main-menu>ul>li.active
+	{
+		border-color:#64ebff
+	}
+
+	/*Modified*/
+	/*#main-menu>ul>li .sub-menu>li>a span:after,#main-menu>ul>li>a span:after*/
+	/*#main-menu>ul>li .menu-item-has-children>li>a span:after,#main-menu>ul>li>a:after*/
+	#main-menu>ul>li .menu-item-has-children>a
+	{
+		vertical-align:middle;
+		font-family:'Material icons';
+		content:'\E5D4'
+	}
+
+	/*modified*/
+/* .header-breaking-news-block>strong
+{
+	width:20%;
+
+	
+	font-size:20px
+	} */
+	/*width:13%;*/
+
+
+/* header breaking news & controls */
+	.header-breaking-news-block .header-breaking-news-block-frame {
+    display: block;
+    float: left;
+    width: 71%;
+    overflow: hidden;
+    position: relative;
+    line-height: 80px;
+    height: 80px;
+    border-right: 1px solid rgba(255,255,255,.2);
+    padding: 0 20px;
+}
+
+.header-breaking-news-block>.ot-breaking-news-controls {
+    display: block;
+    float: left;
+    width: 9%;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 80px;
+    white-space: nowrap;
+    text-align: right;
+    font-size: 0;
+	}
+	/* vertical-align: top; */
+
+	

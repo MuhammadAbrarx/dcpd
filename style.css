@@ -1,0 +1,57 @@
+/*
+Theme Name: Newspaper Material by Md. Abrar
+Author: Muhammad Abrar
+Theme URI: Dailychandpurdarpan.com
+Description: A handrolled WordPress Multipurpose Bootstrap theme
+Version: 2.4
+Tags: responsive, sky blue, bootstrap
+ 
+License: Free for Personal Use Only
+License URI: 
+ 
+*/
+
+/* @import url('fonts/fontawesome.css'); */
+/* @import url('css/owl.carousel.min.css');
+@import url('fonts/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('fonts/weather-icons.min.css');
+@import url('css/otgrid.min.css');
+@import url('css/responsive.min.css');
+@import url('css/main-stylesheet.min.css');
+@import url('css/material.min.css'); */
+/* @import url('css/custom-styles.min.css'); */
+/*@import url('css/reset.min.css');*/
+
+		@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=latin,latin-ext');
+		@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+		/* @import url('css/reset.min.css'); */
+		@import url('css/material.min.css');
+		@import url('css/font-awesome.min.css');
+		@import url('css/weather-icons.min.css');
+		@import url('css/owl.carousel.min.css');
+		/* @import url('css/shortcodes.min.css'); */
+		@import url('css/main-stylesheet.min.css');
+		@import url('css/otgrid.min.css');
+		/* @import url('css/custom-styles.min.css'); */
+		/* @import url('css/ot-lightbox.min.css'); */
+		@import url('css/responsive.min.css');
+
+		/*  HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries */
+		/*  WARNING: Respond.js doesn't work if you view the page via file:// */
+
+		/* [if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+		/* [if lte IE 8]>
+		@import url('css/ie-ancient.min.css');
+		<![endif]-->
+
+		/*  Demo Only */
+		/* @import url('css/_ot-demo.min.css'); */
+
+
+
